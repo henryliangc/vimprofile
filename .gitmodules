@@ -1,3 +1,24 @@
-[submodule "/home/yaoling.lc/.vim/bundle/colorschemes"]
-	path = /home/yaoling.lc/.vim/bundle/colorschemes
+[submodule "/bundle/colorschemes"]
+	path = /bundle/colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
+[submodule "bundle/auto-pairs"]
+	path = bundle/auto-pairs
+	url = git://github.com/jiangmiao/auto-pairs.git
+[submodule "bundle/Vundle.vim"]
+	path = bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim.git
+[submodule "bundle/gen_tags.vim"]
+	path = bundle/gen_tags.vim
+	url = https://github.com/jsfaint/gen_tags.vim.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/vim-dict"]
+	path = bundle/vim-dict
+	url = git@github.com:skywind3000/vim-dict.git
+[submodule "bundle/vim-gitgutter"]
+	path = bundle/vim-gitgutter
+	url = git://github.com/airblade/vim-gitgutter.git
+[submodule "bundle/vim-gutentags"]
+	path = bundle/vim-gutentags
+	url = https://github.com/ludovicchabant/vim-gutentags.git
