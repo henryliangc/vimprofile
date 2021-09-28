@@ -1,6 +1,6 @@
 {
 "intializationOptions": 
 {
-  "cacheDirectory": "/flash1/yaoling.lc/.cache/LanguageClient"
+  "cacheDirectory": "/home/yaoling.lc/.cache/LanguageClient"
 }
 }
