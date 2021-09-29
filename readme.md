@@ -4,7 +4,7 @@
 3. vim8
 
 #Installation
-1. git clone --recursive git@github.com:henryliangc/vimprofile.github
+1. git clone --recurse-submodules git@github.com:henryliangc/vimprofile.github
 2. override ~/.vimrc with .vimrc in repo
 3. override the whole ~/.vim directory with repo
 
