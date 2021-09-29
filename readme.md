@@ -4,8 +4,9 @@
 3. vim8
 
 #Installation
-1. override ~/.vimrc with .vimrc in repo
-2. override the whole ~/.vim directory with repo
+1. git clone --recursive git@github.com:henryliangc/vimprofile.github
+2. override ~/.vimrc with .vimrc in repo
+3. override the whole ~/.vim directory with repo
 
 #Hot Keys:
 Ctrl+N/P : move up/down in autocomplete tags
