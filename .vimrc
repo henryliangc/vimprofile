@@ -59,6 +59,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugin 'L9'
 " 由Git支持但不再github上的插件仓库 Plugin 'git clone 后面的地址'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'vim-clang-format'
 " Plugin 'git://git.wincent.com/command-t.git'
  " 本地的Git仓库(例如自己的插件) Plugin 'file:///+本地插件仓库绝对路径'
 " Plugin 'ajh17/vimcompletesme'
@@ -159,7 +160,9 @@ let g:NERDTreeIndicatorMapCustom = {
     \ }
 """"""""""""""""""" nerdtree related end  """"""""""""""""""
 
-
+set colorcolumn=80
+let g:clang_format#auto_format_on_insert_leave=1
+nnoremap <Leader>s :<C-u>call gitblame#echo()<CR>
 
 """"""""""""""""""" display related start  """"""""""""""""""
 set wildmode=longest,list " Ex命令自动补全采用bash方式"
